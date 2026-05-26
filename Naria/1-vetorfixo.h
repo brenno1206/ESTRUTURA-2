@@ -5,5 +5,5 @@
 
 typedef struct _NoArvNaria {
     int chave;
-    struct _NoArvNaria *filhos[];
+    struct _NoArvNaria *filhos[M];
 } NoArvNaria, *ArvNaria;
